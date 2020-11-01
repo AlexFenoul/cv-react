@@ -19,6 +19,9 @@ body{
   height: 400px;
 }
 
+.switch{
+}
+
 @font-face {
   font-family: 'Timeless';
   src: local('Timeless'), url(./assets/font/Timeless.ttf) format('truetype');
