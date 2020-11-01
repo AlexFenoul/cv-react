@@ -31,7 +31,9 @@ function App() {
             <Skill />
           </Route>
           <Route exact path="/">
-            <p>accueil</p>
+            <div className='home'>
+              <p> home </p>
+            </div>
           </Route>
           <Route component={PageNotFound} />
   

@@ -1,0 +1,11 @@
+.competenceContainer{
+    padding: 1%;
+    height: 400px;
+}
+
+.competence{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1%;
+}
