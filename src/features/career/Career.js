@@ -7,7 +7,7 @@ export function Career() {
 
   return (
     <div>
-      
+      <p>career</p>
     </div>
   );
 }
