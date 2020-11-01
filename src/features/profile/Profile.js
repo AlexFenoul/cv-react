@@ -4,9 +4,27 @@ import { } from './profileSlice.js';
 import styles from './Profile.module.css';
 
 import profilePicture from '../../assets/images/profilePicture.JPG';
+import { Caroussel } from '../../shared/caroussel/Caroussel';
+
 
 
 export function Profile() {
+  const carousel = [{
+      src: '/ski.jpg',
+      alt: 'Ski',
+      caption: 'Faire du ski'
+    },
+    {
+      src: '/fete.jpg',
+      alt: 'Fête',
+      caption: 'Faire la fête'
+    },
+    {
+      src: '/restaurant.jpg',
+      alt: 'Restaurant',
+      caption: 'Manger'
+    }
+  ]
 
   return (
     <div className={styles.profile}>
@@ -34,6 +52,7 @@ export function Profile() {
         </div>
         <div className={styles.infoDeux}>
           <label>Passe temps</label>
+          <Caroussel carousel={carousel} />
         </div>
       </div>
     </div>

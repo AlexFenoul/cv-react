@@ -7,6 +7,7 @@ import { Profile } from './features/profile/Profile';
 import { Career } from './features/career/Career';
 import { Skill } from './features/skill/Skill';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,
