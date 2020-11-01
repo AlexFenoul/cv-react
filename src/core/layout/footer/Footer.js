@@ -10,9 +10,15 @@ import { Curriculum } from './curriculum/Curriculum';
 export function Footer() {
 
   return (
-    <footer>
+    <footer className={styles.footer}>
+      <div>
       <SocialMedia />
+
+      </div>
+      <div>
       <Curriculum />
+
+      </div>
     </footer>
   );
 }

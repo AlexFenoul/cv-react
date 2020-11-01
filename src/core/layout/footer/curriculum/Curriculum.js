@@ -3,11 +3,16 @@ import { } from 'react-redux';
 import { } from './curriculumSlice.js';
 import styles from './Curriculum.module.css';
 
+import download from '../../../../assets/images/download.png';
+
+
 export function Curriculum() {
 
   return (
     <div>
-        <p> curriculum </p>
+        <a href="/CV_Fenoul.pdf" download>
+            <img className={styles.download} src={download} alt="CV" />
+        </a>
     </div>
   );
 }
