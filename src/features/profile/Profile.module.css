@@ -1,0 +1,36 @@
+.profile{
+    height: 400px;
+    display: flex;
+}
+
+.profilePicture{
+    border: 3px solid #000000;
+    margin: 20px;
+    width: 200px;
+    object-fit: scale-down;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ 
+.information{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+} 
+
+label{
+    border-bottom: 3px solid #000000;
+    font-family: "coolvetica", Courier, monospace;
+}
+
+.info{
+    font-family: "coolvetica", Courier, monospace;
+    color: #ff7c6a;
+}
+
+.infoDeux{
+    margin-left: 40px;
+}
