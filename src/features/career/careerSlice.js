@@ -9,6 +9,6 @@ export const careerSlice = createSlice({
   },
 });
 
-// export const { } = headerSlice.actions;
+// export const { } = careerSlice.actions;
 
 export default careerSlice.reducer;

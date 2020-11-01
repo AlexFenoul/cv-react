@@ -6,8 +6,8 @@ import styles from './Footer.module.css';
 export function Footer() {
 
   return (
-    <div>
-      
-    </div>
+    <footer>
+      <p>footer</p>
+    </footer>
   );
 }

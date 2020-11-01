@@ -9,6 +9,6 @@ export const skillSlice = createSlice({
   },
 });
 
-// export const { } = headerSlice.actions;
+// export const { } = skillSlice.actions;
 
 export default skillSlice.reducer;

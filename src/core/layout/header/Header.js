@@ -3,11 +3,16 @@ import { } from 'react-redux';
 import { } from './headerSlice.js';
 import styles from './Header.module.css';
 
+import { Head } from './head/Head';
+import { Navbar } from './navbar/Navbar';
+
+
 export function Header() {
 
   return (
-    <div>
-      
-    </div>
+    <header>
+      <Head />
+      <Navbar />
+    </header>
   );
 }

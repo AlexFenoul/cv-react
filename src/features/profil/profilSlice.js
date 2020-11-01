@@ -9,6 +9,6 @@ export const profilSlice = createSlice({
   },
 });
 
-// export const { } = headerSlice.actions;
+// export const { } = profilSlice.actions;
 
 export default profilSlice.reducer;
