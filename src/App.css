@@ -10,6 +10,15 @@ body{
   position: relative;
 }
 
+.home{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
 @font-face {
   font-family: 'Timeless';
   src: local('Timeless'), url(./assets/font/Timeless.ttf) format('truetype');
