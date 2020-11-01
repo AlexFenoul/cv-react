@@ -9,3 +9,19 @@ body{
   margin: 5% auto;
   position: relative;
 }
+
+@font-face {
+  font-family: 'Timeless';
+  src: local('Timeless'), url(./assets/font/Timeless.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Timeless-Bold';
+  src: local('Timeless-Bold'), url(./assets/font/Timeless-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'coolvetica';
+  src: local('coolvetica'), url(./assets/font/coolvetica.ttf) format('truetype');
+}
+

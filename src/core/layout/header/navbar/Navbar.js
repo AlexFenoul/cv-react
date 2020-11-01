@@ -11,9 +11,17 @@ export function Navbar() {
 
   return (
     <div className={styles.navbar}>
-        <Link to="/profil">Profil</Link>
-        <Link to="/parcours">Parcours</Link>
-        <Link to="/competence">Compétence</Link>
+      <ul className={styles.listNavbar}>
+        <li className={styles.listItem}>
+          <Link className={styles.link} to="/profil">Profil</Link>
+        </li>
+        <li className={styles.listItem}>
+          <Link className={styles.link} to="/parcours">Parcours</Link>
+        </li>
+        <li className={styles.listItem}>
+          <Link className={styles.link} to="/competence">Compétence</Link>
+        </li>
+      </ul>
     </div>
   );
 }
